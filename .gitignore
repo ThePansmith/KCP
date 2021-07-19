@@ -76,23 +76,3 @@ eula.txt
 banned-players.json
 banned-ips.json
 ChangelogGenerator.jar
-
-# Instance Sync
-**/*.jar
-!InstanceSync*.jar
-**/*.jar.disabled
-**/*.jar.meta
-config/brandon3055/ProjectIntelligence/ModDocs/
-patchouli_data.json
-oldmanifest.json
-config/AppliedEnergistics2/items.csv
-OpenComputersMod-1.7.4.153-lua53-native.64.dll
-OpenComputersMod-1.7.4.153-lua52-native.64.dll
-ModpackUploader.ps1
-ModpackUploader.bat
-twitch-export-builder.exe
-settings.ps1
-TwitchExportBuilder.exe
-CHANGELOG-GENERATED.md
-MakeModpackFiles.bat
-MakeModpackFiles.ps1
