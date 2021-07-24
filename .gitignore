@@ -1,18 +1,18 @@
 # Shamelessly copypasted from E2E's config (at least for now)
 
 # Folders to ignore
-/journeymap/
-/dumps/
-/crash-reports/
-/.mixin.out/
-/logs/
-/local/
-/libraries/
-/llibrary/
-/saves/
-/TombManyGraves/
-/screenshots/
-/world/
+/minecraft/journeymap/
+/minecraft/dumps/
+/minecraft/crash-reports/
+/minecraft/.mixin.out/
+/minecraft/logs/
+/minecraft/local/
+/minecraft/libraries/
+/minecraft/llibrary/
+/minecraft/saves/
+/minecraft/TombManyGraves/
+/minecraft/screenshots/
+/minecraft/world/
 
 # Utilities
 .github_changelog_generator
@@ -24,29 +24,29 @@ modpack_upload_settings.cfg
 ModpackUploadTool.bat
 
 # Client Configs
-config/InvTweaks.cfg
-config/MouseTweaks.cfg
-config/jei/worldSettings.cfg
-config/jei/lookupHistory.zip
-config/jei/bookmarks.ini
-zs_export.json
-.curseclient
-.ReAuth.cfg
-usernamecache.json
-usercache.json
-knownkeys.txt
-servers.dat
-realms_persistence.json
-WailaErrorOutput.txt
-ItemDump.txt
-BotaniaVars.dat
-options.txt
+/minecraft/config/InvTweaks.cfg
+/minecraft/config/MouseTweaks.cfg
+/minecraft/config/jei/worldSettings.cfg
+/minecraft/config/jei/lookupHistory.zip
+/minecraft/config/jei/bookmarks.ini
+/minecraft/zs_export.json
+/minecraft/.curseclient
+/minecraft/.ReAuth.cfg
+/minecraft/usernamecache.json
+/minecraft/usercache.json
+/minecraft/knownkeys.txt
+/minecraft/servers.dat
+/minecraft/realms_persistence.json
+/minecraft/WailaErrorOutput.txt
+/minecraft/ItemDump.txt
+/minecraft/BotaniaVars.dat
+/minecraftoptions.txt
 README.md
-crafttweaker.log
+/minecraftcrafttweaker.log
 github_changelog_generator.gemspec
 ChangelogGenerator.bat
 twitch_export-win.exe
-crafttweaker.log
+/minecraft/crafttweaker.log
 config/BlockDrops/modVersions.txt
 config/InvTweaks/InvTweaks.cfg
 config/scavenge/IResourceProperty.txt
@@ -59,18 +59,18 @@ OpenComputersMod-1.7.3.146-lua52-native.64.dll
 ModpackFileId.json
 LICENSE.md
 manifest.json
-config/AppliedEnergistics2/aerecipes/
-config/AppliedEnergistics2/recipes/
+/minecraft.config/AppliedEnergistics2/aerecipes/
+/minecraft/config/AppliedEnergistics2/recipes/
 valkyrielib/cache/supporters.json
-discordsuite/win32-x86-64/discord-rpc.dll
-discordsuite/version
+/minecraft/discordsuite/win32-x86-64/discord-rpc.dll
+/minecraft/discordsuite/version
 ServerFileGenerator.bat
 config/brandon3055/ResourceCache/
 whitelist.json
 ops.json
 minecraft_server.1.12.2.jar
 installer.log
-forge-1.12.2-14.23.5.2781-universal.jar
+/minecraft/forge-1.12.2-14.23.5.2781-universal.jar
 forge-1.12.2-14.23.5.2781-installer.jar
 eula.txt
 banned-players.json
