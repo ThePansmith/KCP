@@ -378,6 +378,12 @@
 	    "fileID": 2863771,
 	    "projectID": 238857,
 	    "required": true
+	},
+	{
+	    "alias": "Better Questing (BetterQuesting-3.5.329.jar)",
+	    "fileID": 2950248,
+	    "projectID": 238856,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
