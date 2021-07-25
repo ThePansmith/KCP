@@ -372,7 +372,13 @@
             "fileID": 2691542,
             "projectID": 245480,
             "required": true
-        }
+        },
+	{
+	    "alias": "Better Questing - Standard Expansion (StandardExpansion-3.4.173.jar)",
+	    "fileID": 2863771,
+	    "projectID": 238857,
+	    "required": true
+	}
     ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
