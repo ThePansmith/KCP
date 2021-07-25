@@ -13,3 +13,9 @@
 * Standard Ticon Progression
   * Maybe rebalance some of the materials to mix things up, and to make some materials viable
   * Ticon ore doubling disabled in favor of custom methods (Botantia for earlygame ore doubling?)
+* Progress in botantia to at least fluxfield
+
+### Power
+* Gate power behind botania mana, and have it be the sole option for a while.
+  * Buff mana fluxfield to compensate, and allow it to be viable.
+
