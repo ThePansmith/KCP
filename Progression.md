@@ -10,5 +10,6 @@
   * Require plates to make machine frames
 * Have arcane archives as a storage option for earlygame
   * Personally havent used the mod, may require some balancing to be viable for this stage of the game
-  
-
+* Standard Ticon Progression
+  * Maybe rebalance some of the materials to mix things up, and to make some materials viable
+  * Ticon ore doubling disabled in favor of custom methods (Botantia for earlygame ore doubling?)
