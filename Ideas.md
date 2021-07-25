@@ -1,3 +1,4 @@
+```
 Current ideas list for the pack:
 Botantia as a viable early to midgame power source
 Gregtech styled ore viens
@@ -9,4 +10,4 @@ Mixing up how automatic resource generation is done
 Something to do with Ticon shards?
 Practical logistics 2 forging hammer as earlygame plate presser?
 Botantia as the earlygame power source?.
-
+```
