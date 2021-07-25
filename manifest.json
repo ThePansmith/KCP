@@ -384,6 +384,12 @@
 	    "fileID": 2950248,
 	    "projectID": 238856,
 	    "required": true
+	},
+	{
+	    "alias": "Better Questing - RF Expansion (RFExpansion-3.4.31.jar)",
+	    "fileID": 2787287,
+	    "projectID": 242039,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
