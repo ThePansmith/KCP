@@ -8,6 +8,6 @@ Item type (dyes, woods, potions etc) singularities
 Expanding upon the TICON seared furnace with modular machinery
 Mixing up how automatic resource generation is done with e.g. new IE Excavator reservoir types.
 Something to do with Ticon shards?
-Practical logistics 2 forging hammer as earlygame plate presser?
+Practical logistics 2 forging hammer as earlygame (prepower) plate presser?
 
 ```
