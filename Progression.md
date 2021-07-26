@@ -3,6 +3,7 @@
 ## Spawn
 * Player gets armour and food via quest.
 * Get basic tools and whatnot
+* [No more vanilla tools](https://streamable.com/zu3ou9)
 
 ## Earlygame
 ### Pre-power
