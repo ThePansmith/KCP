@@ -390,6 +390,12 @@
 	    "fileID": 2787287,
 	    "projectID": 242039,
 	    "required": true
+	},
+	{
+	    "alias" "Iguana Tinker Tweaks: Reborn (IguanaTweaksReborn-1.5.2-mc1.12.x.jar)",
+	    "fileID": 3283799,
+	    "projectID": 285690,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
