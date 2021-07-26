@@ -14,6 +14,7 @@
 * Standard Ticon Progression
   * Maybe rebalance some of the materials to mix things up, and to make some materials viable
   * Ticon ore doubling disabled in favor of custom methods (Botantia for earlygame ore doubling?)
+* Use Ticon to make aluminum brass for botania.
 * Progress in botantia to at least fluxfield
 
 ### Power
