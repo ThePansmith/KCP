@@ -19,6 +19,12 @@
             "projectID": 250363,
             "required": true
         },
+	{
+            "alias": "CraftTweaker (CraftTweaker-1.16.5-7.1.0.360.jar)",
+            "fileID": 3404936,
+            "projectID": 239197,
+            "required": true
+        },
         {
             "alias": "Baubles (Baubles-1.12-1.5.2.jar)",
             "fileID": 2518667,
