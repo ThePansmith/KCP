@@ -19,12 +19,6 @@
             "projectID": 250363,
             "required": true
         },
-	{
-            "alias": "Crafting Tweaks (CraftingTweaks_1.12.2-8.1.9.jar)",
-            "fileID": 2562139,
-            "projectID": 233071,
-            "required": true
-        },
         {
             "alias": "Baubles (Baubles-1.12-1.5.2.jar)",
             "fileID": 2518667,
@@ -84,7 +78,7 @@
             "fileID": 2562139,
             "projectID": 233071,
             "required": true
- 
+	},
         {
             "alias": "Cucumber Library (Cucumber-1.12.2-1.1.3.jar)",
             "fileID": 2645867,
