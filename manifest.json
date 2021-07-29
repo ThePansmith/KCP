@@ -420,7 +420,7 @@
 	    "projectID": 230976,
 	    "required": true
 	}
-    ],
+	    },
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "minecraft": {
