@@ -414,13 +414,14 @@
 	    "fileID": 2843439,
 	    "projectID": 272671,
 	    "required": true
+	},
 	{
 	    "alias": "Fast Leaf Decay (FastLeafDecay-v14.jar)",
 	    "fileID": 2463272,
 	    "projectID": 230976,
 	    "required": true
 	}
-	    },
+    ],
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "minecraft": {
