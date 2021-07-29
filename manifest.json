@@ -404,11 +404,16 @@
 	    "required": true
 	},
 	{
+	    "alias": "MysticalLib (mysticallib-1.12.2-1.10.0.jar)",
+	    "fileID": 3243257,
+	    "projectID": 277064,
+	    "required": true
+	},
+	{
 	    "alias": "Tinkers' Complement (TinkersComplement-1.12.2-0.4.3.jar)",
 	    "fileID": 2843439,
 	    "projectID": 272671,
-	    "required": true
-	},
+	    "required": tr
 	{
 	    "alias": "Fast Leaf Decay (FastLeafDecay-v14.jar)",
 	    "fileID": 2463272,
