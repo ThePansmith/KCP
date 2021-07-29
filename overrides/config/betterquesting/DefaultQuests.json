@@ -1591,12 +1591,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "arcanearchives:radiant_resonator",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "arcanearchives:radiant_resonator"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1620,12 +1616,8 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "arcanearchives:radiant_resonator",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "arcanearchives:radiant_resonator"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1639,14 +1631,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "arcanearchives:tome_arcana",
               "Count:3": 1,
               "tag:10": {
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "Book:8": "arcanearchives:xml/tome.xml"
-                },
-                "orig_id:8": "arcanearchives:tome_arcana"
+                "Book:8": "arcanearchives:xml/tome.xml"
               },
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1987,6 +1975,76 @@
           "command:8": "#Script Comment\nsay Running reward script...\nsay @s has made their first fluxfield!"
         }
       }
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tcomplement:high_oven_controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Steel!",
+          "desc:8": "By combining iron and heat in a high oven, along with 3 other ingredients, you can create steel!\n\n\n(Check JEI to see what works best for you)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tcomplement:high_oven_controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 5,
+              "Damage:2": 160,
+              "OreDict:8": "ingotSteel"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 5,
+              "Damage:2": 160,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2081,6 +2139,13 @@
           "x:3": 12,
           "y:3": -48,
           "id:3": 21,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -84,
+          "id:3": 33,
           "sizeY:3": 24
         }
       },
