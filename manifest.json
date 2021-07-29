@@ -20,8 +20,8 @@
             "required": true
         },
 	{
-            "alias": "CraftTweaker (CraftTweaker-1.16.5-7.1.0.360.jar)",
-            "fileID": 3404936,
+            "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.19.jar)",
+            "fileID": 2724129,
             "projectID": 239197,
             "required": true
         },
