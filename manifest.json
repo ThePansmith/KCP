@@ -413,7 +413,7 @@
 	    "alias": "Tinkers' Complement (TinkersComplement-1.12.2-0.4.3.jar)",
 	    "fileID": 2843439,
 	    "projectID": 272671,
-	    "required": tr
+	    "required": true
 	{
 	    "alias": "Fast Leaf Decay (FastLeafDecay-v14.jar)",
 	    "fileID": 2463272,
