@@ -1073,7 +1073,6 @@
     "17:10": {
       "questID:3": 17,
       "preRequisites:11": [
-        25,
         26
       ],
       "properties:10": {
@@ -1539,7 +1538,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Mana items",
           "desc:8": "Created by dropping certain items (refer to the Lexica Botania) into a pool of mana. \n\nUsed in crafting recipes.\n"
         }
@@ -1556,22 +1555,16 @@
             "0:10": {
               "id:8": "botania:manaresource",
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 1,
               "OreDict:8": ""
             },
             "1:10": {
               "id:8": "botania:manaresource",
               "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "2:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 1,
               "Damage:2": 2,
               "OreDict:8": ""
             },
-            "3:10": {
+            "2:10": {
               "id:8": "botania:quartz",
               "Count:3": 1,
               "Damage:2": 1,
@@ -1598,8 +1591,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "arcanearchives:radiant_resonator",
+            "id:8": "betterquesting:placeholder",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_id:8": "arcanearchives:radiant_resonator"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1623,8 +1620,12 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "arcanearchives:radiant_resonator",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "arcanearchives:radiant_resonator"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1638,10 +1639,14 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "arcanearchives:tome_arcana",
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
               "tag:10": {
-                "Book:8": "arcanearchives:xml/tome.xml"
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "Book:8": "arcanearchives:xml/tome.xml"
+                },
+                "orig_id:8": "arcanearchives:tome_arcana"
               },
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1651,6 +1656,81 @@
       }
     },
     "28:10": {
+      "questID:3": 28,
+      "preRequisites:11": [
+        25,
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:storage",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Manasteel",
+          "desc:8": "While the other Botania staple items are relatively easy to make, for manasteel, an extra step is needed."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "betterquesting:placeholder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
         16
@@ -1716,7 +1796,7 @@
         }
       }
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
         19
@@ -1767,7 +1847,7 @@
       },
       "rewards:9": {}
     },
-    "30:10": {
+    "31:10": {
       "questID:3": 31,
       "preRequisites:11": [
         29
@@ -1838,7 +1918,7 @@
         }
       }
     },
-    "31:10": {
+    "32:10": {
       "questID:3": 32,
       "preRequisites:11": [
         30,
@@ -1900,7 +1980,7 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Will announce to the server of your feat",
+          "description:8": "Will announce your feat to the server",
           "viaPlayer:1": 0,
           "index:3": 1,
           "title:8": "bq_standard.reward.command",
@@ -2054,8 +2134,8 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -36,
+          "x:3": 48,
+          "y:3": 0,
           "id:3": 17,
           "sizeY:3": 24
         },
@@ -2090,7 +2170,7 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": 0,
+          "y:3": -36,
           "id:3": 26,
           "sizeY:3": 24
         },
@@ -2103,26 +2183,33 @@
         },
         "11:10": {
           "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 0,
+          "id:3": 28,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
           "x:3": -36,
           "y:3": 36,
           "id:3": 29,
           "sizeY:3": 24
         },
-        "12:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -36,
           "id:3": 30,
           "sizeY:3": 24
         },
-        "13:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -36,
           "y:3": 72,
           "id:3": 31,
           "sizeY:3": 24
         },
-        "14:10": {
+        "15:10": {
           "sizeX:3": 36,
           "x:3": 138,
           "y:3": -42,
