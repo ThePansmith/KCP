@@ -1,5 +1,6 @@
 # Broad Overview of planned progression for the pack
-
+This is more of a planning/idea area than a design document, so material found here may be outdated as the pack as worked on.
+Detailed progression planning will take place in quest book
 ## Spawn
 * Player gets armour and food via quest.
 * Get basic tools and whatnot
@@ -17,7 +18,10 @@
 * Use Ticon to make aluminum brass for botania.
 * Progress in botantia to at least fluxfield
 
-### Power
+### FluxField
 * Gate power behind botania mana, and have it be the sole option for a while.
-  * Buff mana fluxfield to compensate, and allow it to be viable.
+  * No need to buff fluxfield, it's pretty damn viable on it's own
+* Get some form of power transportation 
+
+
 
