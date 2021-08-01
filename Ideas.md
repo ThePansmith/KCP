@@ -14,6 +14,8 @@
   * Perhaps have them be part of a custom ore processing chain
 * Practical logistics 2 forging hammer as earlygame (prepower) plate presser?
 * IE Biodiesel line as an actual option
+* New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
+* Carpenter for early-game crafting after early Botania
 
 # Ideas implemented
 * Start with gear ala omni
