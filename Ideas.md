@@ -15,7 +15,7 @@
 * New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
 * Carpenter for early-game crafting after early Botania
 * Botania portal can be used to generate some other (non-botania) items as well.
-
+* Usage of manastring to craft Forestry backpacks
 
 # Ideas implemented
 * Start with gear ala omni
