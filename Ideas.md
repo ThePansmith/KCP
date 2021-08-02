@@ -1,6 +1,5 @@
 # Current ideas list for the pack:
 
-* Botantia as a viable/only? early to midgame power source
 * Gregtech styled ore viens done with e.g. Ore Tweaker
 * Mod singularities
   * Like Item type singularities, but focus on the most commonly used items in a given mod.
@@ -12,10 +11,13 @@
 * Mixing up how automatic resource generation is done with e.g. new IE Excavator reservoir types.
 * Something to do with Ticon shards?
   * Perhaps have them be part of a custom ore processing chain
-* Practical logistics 2 forging hammer as earlygame (prepower) plate presser?
 * IE Biodiesel line as an actual option
 * New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
 * Carpenter for early-game crafting after early Botania
+* Botania portal can be used to generate some other (non-botania) items as well.
+
 
 # Ideas implemented
 * Start with gear ala omni
+* Botantia as a viable/only? early to midgame power source
+* Practical logistics 2 forging hammer as earlygame (prepower) plate presser?
