@@ -16,6 +16,9 @@
 * Carpenter for early-game crafting after early Botania
 * Botania portal can be used to generate some other (non-botania) items as well.
 * Usage of manastring to craft Forestry backpacks
+* End game goal: Kharaxium
+ * Basically our Ultimate Ingot
+ * Long processing chain rather than craft?
 
 # Ideas implemented
 * Start with gear ala omni
