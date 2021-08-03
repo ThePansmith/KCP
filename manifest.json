@@ -422,6 +422,18 @@
 	    "required": true
 	},
 	{
+	    "alias": "MTLib (MTLib-3.0.7.jar)",
+	    "fileID": 3308160,
+	    "projectID": 253211,
+	    "required": true
+	},
+	{
+	    "alias": "MoreTweaker (MoreTweaker-1.0.19.jar)",
+	    "fileID": 3226142,
+	    "projectID": 336569,
+	    "required": true
+	},
+	{
 	    "alias": "Tinkers' Complement (TinkersComplement-1.12.2-0.4.3.jar)",
 	    "fileID": 2843439,
 	    "projectID": 272671,
