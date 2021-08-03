@@ -1591,12 +1591,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "arcanearchives:radiant_resonator",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "arcanearchives:radiant_resonator"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1620,12 +1616,8 @@
           "allowAnvil:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "arcanearchives:radiant_resonator",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "arcanearchives:radiant_resonator"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1639,14 +1631,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "arcanearchives:tome_arcana",
               "Count:3": 1,
               "tag:10": {
-                "orig_meta:3": 0,
-                "orig_tag:10": {
-                  "Book:8": "arcanearchives:xml/tome.xml"
-                },
-                "orig_id:8": "arcanearchives:tome_arcana"
+                "Book:8": "arcanearchives:xml/tome.xml"
               },
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1868,7 +1856,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Ore doubling!",
-          "desc:8": "In this pack, breaking a ore block with a mana burst with a bore lens will cause it to split into 2 dust, which can then be smelted into ingots.\n\nNote that mana bursts with bore lens  will pirce blocks, so you can line up a few ores to be split at once."
+          "desc:8": "In this pack, breaking a ore block with a mana burst with a bore lens will cause it to split into 2 dust, which can then be smelted into ingots.\n\nNote that mana bursts with bore lens  will pirce blocks, so you can line up a few ores to be split at once.\n\nAlso, try to get creative with how you set up your ore doubling system, perhaps tiny planet might have a use after all..."
         }
       },
       "tasks:9": {
@@ -1997,12 +1985,8 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "betterquesting:placeholder",
+            "id:8": "tcomplement:high_oven_controller",
             "Count:3": 1,
-            "tag:10": {
-              "orig_meta:3": 0,
-              "orig_id:8": "tcomplement:high_oven_controller"
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2026,12 +2010,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "tcomplement:high_oven_controller",
               "Count:3": 1,
-              "tag:10": {
-                "orig_meta:3": 0,
-                "orig_id:8": "tcomplement:high_oven_controller"
-              },
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -2514,7 +2494,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Finally, Proper Machines!",
-          "desc:8": "Well, sort of. The first thing you\u0027ll need is an IE Coke Oven. (The mana sap is for reinforcement, or something)"
+          "desc:8": "Well, sort of. The first thing you\u0027ll need is an IE Coke Oven. \n\nMake your brick blocks in the carpenter, along with some mana sap.\n\n(The mana sap is for reinforcement)"
         }
       },
       "tasks:9": {
@@ -2574,6 +2554,82 @@
       },
       "tasks:9": {},
       "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [
+        35
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forestry:miner_bag",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Backpacks!",
+          "desc:8": "By using some manastring and a carpenter, you can craft the various forestry backpacks!\n\nWhat makes these backpacks special is that items will automagicly (get it?) enter said backpack once picked up.\n\nThere are various backpacks, and different items are assigned to different backpacks (ores go in the mining backpack, etc).\n\nBackpacks can also be upgraded to hold 45 stacks.\n\nMake yourself a mining backpack, and I will give you another one for your troubles."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forestry:miner_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "forestry:digger_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "forestry:forester_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "forestry:builder_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2728,7 +2784,7 @@
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 12,
           "y:3": 0,
           "id:3": 17,
           "sizeY:3": 24
@@ -2893,6 +2949,13 @@
           "x:3": 24,
           "y:3": 48,
           "id:3": 42,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -60,
+          "id:3": 43,
           "sizeY:3": 24
         }
       },
