@@ -26,6 +26,12 @@
             "required": true
         },
         {
+            "alias": "ModTweaker (modtweaker-4.0.20.4.jar)",
+            "fileID": 3368737,
+            "projectID": 220954,
+            "required": true
+        },
+        {
             "alias": "Baubles (Baubles-1.12-1.5.2.jar)",
             "fileID": 2518667,
             "projectID": 227083,
