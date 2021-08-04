@@ -1137,7 +1137,10 @@
     },
     "18:10": {
       "questID:3": 18,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        28,
+        42
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1148,7 +1151,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "minecraft:piston",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1158,9 +1161,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Metal Press",
+          "desc:8": "Your first mutliblock machine!\n\nThe metal press can be used to create a varity of items, such as plates and wires faster.\n"
         }
       },
       "tasks:9": {},
@@ -1324,7 +1327,9 @@
     },
     "22:10": {
       "questID:3": 22,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        42
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1335,9 +1340,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "immersiveengineering:metal_device0",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 5,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1345,17 +1350,56 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "ismain:1": 1,
+          "name:8": "Fluid movement and management",
+          "desc:8": "Finally, an upgrade from Casting Channels!\n\nFluid pipes are crafted in a carpenter, along with some (insert fluid name).\n\nFluid pumps are useful when pumping in and out of tanks without defined input/output sides, as well as sucking up fluids from the world.\n\nThe fluid router will be good to use, as using a liquid container (like a Bucket) in it\u0027s GUI will not put the fluid into the slot, but it will configure the Fluid Router to output that fluid through that specific side into a tank when it enters the Fluid Router. You can easily combine and divert fluids with this."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 10,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:wooden_device0",
+              "Count:3": 1,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 10,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "23:10": {
       "questID:3": 23,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        35
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1366,8 +1410,11 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "immersiveengineering:conveyor",
             "Count:3": 1,
+            "tag:10": {
+              "conveyorType:8": "immersiveengineering:conveyor"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -1377,12 +1424,58 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Belts!",
+          "desc:8": "Conveyor Belt are useful for moving items around.\n\nShift right-clicking will make the Conveyor Belt run up instead of horizontal.\n\nExtracting conveyor belts allow you to pull from inventories without the need of hoppers."
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 10,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 10,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 3,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:extract"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "24:10": {
       "questID:3": 24,
@@ -2630,6 +2723,136 @@
           }
         }
       }
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:wirecoil",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Powerful upgrade",
+          "desc:8": "With your much stronger metal press, you can now make plates and wires out some more metals, which can be inturn used to create some more powerful wires!\n\n\n\nTry not to get zapped."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 5,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 10,
+              "Damage:2": 160,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "45:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "46:10": {
+      "questID:3": 46,
+      "preRequisites:11": [
+        42
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -2883,79 +3106,121 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 12,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 96,
+          "id:3": 22,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 12,
+          "id:3": 23,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
           "x:3": 60,
           "y:3": -24,
           "id:3": 28,
           "sizeY:3": 24
         },
-        "1:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -60,
           "id:3": 34,
           "sizeY:3": 24
         },
-        "2:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -24,
           "id:3": 35,
           "sizeY:3": 24
         },
-        "3:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": 12,
           "id:3": 36,
           "sizeY:3": 24
         },
-        "4:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -48,
           "y:3": -24,
           "id:3": 37,
           "sizeY:3": 24
         },
-        "5:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -24,
           "id:3": 38,
           "sizeY:3": 24
         },
-        "6:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 0,
           "id:3": 39,
           "sizeY:3": 24
         },
-        "7:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": -48,
           "id:3": 40,
           "sizeY:3": 24
         },
-        "8:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": 48,
           "id:3": 41,
           "sizeY:3": 24
         },
-        "9:10": {
+        "12:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 48,
           "id:3": 42,
           "sizeY:3": 24
         },
-        "10:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -60,
           "id:3": 43,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -24,
+          "id:3": 44,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 48,
+          "id:3": 45,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 96,
+          "id:3": 46,
           "sizeY:3": 24
         }
       },
