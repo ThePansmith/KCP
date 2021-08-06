@@ -444,6 +444,12 @@
 	    "fileID": 2463272,
 	    "projectID": 230976,
 	    "required": true
+	},
+	{
+	    "alias": "ContentTweaker (ContentTweaker-1.12.2-4.10.0.jar)",
+	    "fileID": 3331364,
+	    "projectID": 237065,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
