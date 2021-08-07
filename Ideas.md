@@ -11,7 +11,8 @@
 * Mixing up how automatic resource generation is done with e.g. new IE Excavator reservoir types.
 * Something to do with Ticon shards?
   * Perhaps have them be part of a custom ore processing chain
-* IE Biodiesel line as an actual option
+* IE Biodiesel line as an actual option:
+  * IE multi for biodiesel and diesel, higher tier MM machines for higher tier fuels we could create
 * New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
 * Carpenter for early-game crafting after early Botania
 * Botania portal can be used to generate some other (non-botania) items as well.
