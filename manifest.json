@@ -450,6 +450,12 @@
 	    "fileID": 3331364,
 	    "projectID": 237065,
 	    "required": true
+	},
+	{
+	    "alias": "Just Enough Petroleum (JustEnoughPetroleum-0.1.jar)",
+	    "fileID": 2549332,
+	    "projectID": 291727,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
