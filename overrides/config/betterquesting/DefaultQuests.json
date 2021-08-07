@@ -1166,7 +1166,52 @@
           "desc:8": "Your first mutliblock machine!\n\nThe metal press can be used to create a varity of items, such as plates and wires faster.\n\nIt can also be used to create gears."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:metal_decoration1",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveengineering:metal_decoration0",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 2,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "19:10": {
@@ -2780,12 +2825,12 @@
             "Damage:2": 1,
             "OreDict:8": ""
           },
-          "globalshare:1": 0,
+          "globalshare:1": 1,
           "questlogic:8": "AND",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "A Powerful upgrade",
           "desc:8": "With your much stronger metal press, you can now make plates and wires out some more metals, which can be in turn used to create some more powerful wires!\n\n\n\nTry not to get zapped."
         }
@@ -3064,6 +3109,39 @@
       "rewards:9": {}
     },
     "50:10": {
+      "questID:3": 50,
+      "preRequisites:11": [
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:tool",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 1,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Start of an Age",
+          "desc:8": "With your MV wire and current infrastructure, it\u0027s time to do more with IE."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "51:10": {
       "questID:3": 51,
       "preRequisites:11": [
         49,
@@ -3107,6 +3185,544 @@
               "id:8": "nuclearcraft:part",
               "Count:3": 1,
               "Damage:2": 10,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "52:10": {
+      "questID:3": 52,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thermalfoundation:material",
+            "Count:3": 1,
+            "Damage:2": 160,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Less Primitive",
+          "desc:8": "That steel-making process you have right now is getting a little old... Go ahead and make yourself an IE blast furnace."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:stone_decoration",
+              "Count:3": 27,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "53:10": {
+      "questID:3": 53,
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_device1",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hot Stuff",
+          "desc:8": "The behaviour of the preheaters have been buffed dramatically, making the blast furnace much faster."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device1",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "54:10": {
+      "questID:3": 54,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_multiblock",
+            "Count:3": 1,
+            "Damage:2": 7,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Squeezing 2.0",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "55:10": {
+      "questID:3": 55,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_multiblock",
+            "Count:3": 1,
+            "Damage:2": 8,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Fermenting 2.0",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "56:10": {
+      "questID:3": 56,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:tool",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Whole New Power Source",
+          "desc:8": "Biodiesel is an excellent power source added by IE. This questline will guide you through the process of making it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        57,
+        54
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "plantoil",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Plant Oil",
+          "desc:8": "Squeeze seeds, get oil."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "plantoil",
+                "Amount:3": 1000
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "59:10": {
+      "questID:3": 59,
+      "preRequisites:11": [
+        57,
+        55
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "ethanol",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Ethanol",
+          "desc:8": "NEI will tell you what the best items are for you to ferment to get this."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "ethanol",
+                "Amount:3": 1000
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "60:10": {
+      "questID:3": 60,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_multiblock",
+            "Count:3": 1,
+            "Damage:2": 9,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Refinery",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "61:10": {
+      "questID:3": 61,
+      "preRequisites:11": [
+        59,
+        58,
+        60
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "forge:bucketfilled",
+            "Count:3": 1,
+            "tag:10": {
+              "FluidName:8": "biodiesel",
+              "Amount:3": 1000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Biodiesel",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "forge:bucketfilled",
+              "Count:3": 1,
+              "tag:10": {
+                "FluidName:8": "biodiesel",
+                "Amount:3": 1000
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "62:10": {
+      "questID:3": 62,
+      "preRequisites:11": [
+        50,
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_multiblock",
+            "Count:3": 1,
+            "Damage:2": 10,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Controlled Explosions",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "63:10": {
+      "questID:3": 63,
+      "preRequisites:11": [
+        50
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_device0",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "First Power Storage",
+          "desc:8": "This §omight §o§rcome in handy. "
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:metal_device0",
+              "Count:3": 1,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           },
@@ -3465,14 +4081,14 @@
         },
         "14:10": {
           "sizeX:3": 24,
-          "x:3": 192,
+          "x:3": 168,
           "y:3": 12,
           "id:3": 44,
           "sizeY:3": 24
         },
         "15:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 132,
           "y:3": 48,
           "id:3": 45,
           "sizeY:3": 24
@@ -3486,28 +4102,28 @@
         },
         "17:10": {
           "sizeX:3": 24,
-          "x:3": 192,
+          "x:3": 168,
           "y:3": 48,
           "id:3": 47,
           "sizeY:3": 24
         },
         "18:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 132,
           "y:3": -24,
           "id:3": 48,
           "sizeY:3": 24
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": 192,
+          "x:3": 168,
           "y:3": -24,
           "id:3": 49,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 228,
+          "x:3": 204,
           "y:3": 12,
           "id:3": 51,
           "sizeY:3": 24
@@ -3530,6 +4146,138 @@
         }
       },
       "order:3": 2
+    },
+    "3:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -48,
+          "id:3": 50,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 24,
+          "id:3": 53,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": -48,
+          "id:3": 54,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -120,
+          "id:3": 55,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -48,
+          "id:3": 56,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -84,
+          "id:3": 57,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -192,
+          "y:3": -120,
+          "id:3": 58,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -120,
+          "id:3": 59,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -156,
+          "id:3": 60,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -156,
+          "id:3": 61,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -192,
+          "id:3": 62,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -12,
+          "id:3": 63,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 3,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Immersive",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 3
+    },
+    "4:10": {
+      "quests:9": {},
+      "lineID:3": 4,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Cold Fire",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 4
     }
   },
   "questSettings:10": {
