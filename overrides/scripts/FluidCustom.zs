@@ -17,10 +17,7 @@ mana_sap.luminosity = 10;
 mana_sap.density = 500;
 mana_sap.register();
 
-mods.tconstruct.Melting.addRecipe(<liquid:mana_sap> * 72,<botania:manaresource:23>);
-mods.tconstruct.Melting.addRecipe(<liquid:mana_sap> * 32,<botania:manaresource:16>);
-mods.tconstruct.Melting.addRecipe(<liquid:mana_sap> * 144,<botania:manaresource:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:mana_sap> * 144,<botania:manaresource:2>);
+
 
 
 // Low grade methanol
@@ -33,6 +30,3 @@ low_grade_methanol.register();
 var molten_manasteel = VanillaFactory.createFluid("molten_manasteel", Color.fromHex("0010ff")); 
 molten_manasteel.register();
 
-mods.tconstruct.Melting.addRecipe(<liquid:molten_manasteel> * 144,<botania:manaresource>);
-mods.tconstruct.Alloy.addRecipe(<liquid:molten_manasteel> * 1, [<liquid:steel> * 1, <liquid:mana_sap> * 1]);
-mods.tconstruct.Casting.addTableRecipe(<botania:manaresource>, <tconstruct:cast_custom>, <liquid:molten_manasteel>, 144);
