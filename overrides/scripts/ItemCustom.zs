@@ -5,3 +5,6 @@ import mods.contenttweaker.Item;
 
 var brickdust = VanillaFactory.createItem("brick_dust");
 brickdust.register();
+
+var alubrassplate = VanillaFactory.createItem("alubrass_plate");
+alubrassplate.register();
