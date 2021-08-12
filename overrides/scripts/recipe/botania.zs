@@ -23,4 +23,4 @@ recipes.addShaped(<botania:rfgenerator>, [[<ore:livingrock>, <ore:plateIron>, <o
 recipes.addShaped(<botania:starsword>, [[null, null, <minecraft:dye:9>],[<botania:manaresource:2>, <tconstruct:metal:5>, null], [<botania:manaresource:3>, <botania:manaresource:2>, null]]);
 recipes.addShaped(<botania:pool>, [[<botania:livingrock0slab>, null, <botania:livingrock0slab>],[<tconstruct:ingots:5>, null, <tconstruct:ingots:5>], [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]]);
 
-Carpenter.addRecipe(<botania:runealtar>, [[<contenttweaker:alubrass_plate>, <ore:nuggetManasteel>, <contenttweaker:alubrass_plate>], [<contenttweaker:alubrass_plate>, <ore:ingotManasteel>, <contenttweaker:alubrass_plate>], [<ore:livingrock>, <ore:manaPearl>|<ore:manaDiamond>, <ore:livingrock>]], 60, <liquid:mana_sap> * 576);
+Carpenter.addRecipe(<botania:runealtar>, [[<contenttweaker:alubrass_plate>, <ore:nuggetManasteel>, <contenttweaker:alubrass_plate>], [<contenttweaker:alubrass_plate>, <ore:ingotManasteel>, <contenttweaker:alubrass_plate>], [<ore:livingrock>, <ore:manaDiamond>, <ore:livingrock>]], 60, <liquid:mana_sap> * 576);
