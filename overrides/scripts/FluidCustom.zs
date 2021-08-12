@@ -10,6 +10,12 @@ import mods.contenttweaker.VanillaFactory;
 // Basic description
 
 
+// Dilute Mana
+var dilute_mana = VanillaFactory.createFluid("dilute_mana", Color.fromHex("ccfbfe"));
+dilute_mana.luminosity = 5;
+dilute_mana.density = 300;
+dilute_mana.register();
+
 // Mana Sap
 // Used to create manasteel, and some other items
 var mana_sap = VanillaFactory.createFluid("mana_sap", Color.fromHex("01ebfc")); 
