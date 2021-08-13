@@ -12,16 +12,17 @@
 * Something to do with Ticon shards?
   * Perhaps have them be part of a custom ore processing chain
 * IE Biodiesel line as an actual option:
-  * IE multi for biodiesel and diesel, higher tier MM machines for higher tier fuels we could create
-* New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
-* Carpenter for early-game crafting after early Botania
+  * IE multi for biodiesel and diesel, higher tier MM machines for higher tier fuels we could creates
 * Botania portal can be used to generate some other (non-botania) items as well.
-* Usage of manastring to craft Forestry backpacks
 * End game goal: Kharaxium
  * Basically our Ultimate Ingot
  * Long processing chain rather than craft?
-
+* Quests could be done like ftb interactions, but better.
+*
 # Ideas implemented
 * Start with gear ala omni
 * Botantia as a viable/only? early to midgame power source
 * Practical logistics 2 forging hammer as earlygame (prepower) plate presser?
+* New fluid - Mana Sap, alloyed with steel = manasteel and required for carpenter recipes
+* Carpenter for early-game crafting after early Botania
+* Usage of manastring to craft Forestry backpacks
