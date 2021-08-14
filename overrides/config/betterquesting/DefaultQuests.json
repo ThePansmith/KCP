@@ -700,7 +700,7 @@
     "10:10": {
       "questID:3": 10,
       "preRequisites:11": [
-        11
+        9
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -990,7 +990,9 @@
     },
     "15:10": {
       "questID:3": 15,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1001,7 +1003,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "tconstruct:wooden_hopper",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -1012,12 +1014,43 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Wooden Hoppers",
+          "desc:8": "Wooden Hoppers are a cheaper version of the standard hopper, at the cost of moving items somewhat slower. The recipe is unchanged to encourge earlygame usage.\n\nThey are good for earlygame item movement, especially when combined with conveyor belts.\n\n"
         }
       },
-      "tasks:9": {},
-      "rewards:9": {}
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:wooden_hopper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:wooden_hopper",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     },
     "16:10": {
       "questID:3": 16,
@@ -1274,6 +1307,91 @@
       }
     },
     "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:rack",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "minecraft:wooden_slab",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Drying Rack",
+          "desc:8": "Drying racks are useful to transforming various items into others. \n\nIn this pack, monster jerky can be dried into leather, allowing you to convert rotten flesh into leather early on.\n\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:rack",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:wooden_slab",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:rack",
+              "Count:3": 2,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:wooden_slab",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "21:10": {
       "questID:3": 21,
       "preRequisites:11": [
         4
@@ -1337,7 +1455,7 @@
         }
       }
     },
-    "21:10": {
+    "22:10": {
       "questID:3": 22,
       "preRequisites:11": [
         42
@@ -1407,7 +1525,7 @@
         }
       }
     },
-    "22:10": {
+    "23:10": {
       "questID:3": 23,
       "preRequisites:11": [
         35
@@ -1489,7 +1607,7 @@
         }
       }
     },
-    "23:10": {
+    "24:10": {
       "questID:3": 24,
       "preRequisites:11": [
         19
@@ -1553,7 +1671,7 @@
         }
       }
     },
-    "24:10": {
+    "25:10": {
       "questID:3": 25,
       "preRequisites:11": [
         14
@@ -1617,7 +1735,7 @@
         }
       }
     },
-    "25:10": {
+    "26:10": {
       "questID:3": 26,
       "preRequisites:11": [
         16,
@@ -1681,7 +1799,7 @@
       },
       "rewards:9": {}
     },
-    "26:10": {
+    "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
         14
@@ -1748,7 +1866,7 @@
         }
       }
     },
-    "27:10": {
+    "28:10": {
       "questID:3": 28,
       "preRequisites:11": [
         39,
@@ -1817,10 +1935,10 @@
       },
       "rewards:9": {}
     },
-    "28:10": {
+    "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
-        16
+        9
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1832,10 +1950,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "botania:lens",
+            "id:8": "tconstruct:channel",
             "Count:3": 1,
-            "tag:10": {},
-            "Damage:2": 7,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1844,8 +1961,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Mana Modification!",
-          "desc:8": "Mana Lens are items that can be applied to Mana Spreaders, and effect how the function.\n\nFrom damaging mobs, to breaking blocks, to being affected by gravity, these lens are rather versatile.\n\n"
+          "name:8": "Casting Channels",
+          "desc:8": "Early on, you are going to be decently limited in your methods of item transportation. However, casting channels can be used to transfer fluids. This can be used for both general fluid transporation, but you can also route one faucet to many seared tables/basins at once. \n\nYou will need a large amount of aluminum brass for botantia, so this might be worth considering."
         }
       },
       "tasks:9": {
@@ -1858,9 +1975,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "botania:lens",
-              "Count:3": 1,
-              "tag:10": {},
+              "id:8": "tconstruct:channel",
+              "Count:3": 10,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1874,8 +1990,8 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "botania:spreader",
-              "Count:3": 1,
+              "id:8": "tconstruct:casting",
+              "Count:3": 2,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1883,7 +1999,7 @@
         }
       }
     },
-    "29:10": {
+    "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
         19
@@ -1933,77 +2049,6 @@
         }
       },
       "rewards:9": {}
-    },
-    "30:10": {
-      "questID:3": 31,
-      "preRequisites:11": [
-        29
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "thermalfoundation:material",
-            "Count:3": 1,
-            "Damage:2": 64,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "Ore doubling!",
-          "desc:8": "In this pack, breaking a ore block with a mana burst with a bore lens will cause it to split into 2 dust, which can then be smelted into ingots.\n\nNote that mana bursts with bore lens  will pirce blocks, so you can line up a few ores to be split at once.\n\nAlso, try to get creative with how you set up your ore doubling system, perhaps tiny planet might have a use after all..."
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "botania:lens",
-              "Count:3": 1,
-              "tag:10": {},
-              "Damage:2": 7,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "minecraft:gold_ore",
-              "Count:3": 10,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
     },
     "31:10": {
       "questID:3": 32,
@@ -2146,7 +2191,9 @@
     },
     "33:10": {
       "questID:3": 34,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        32
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2253,7 +2300,9 @@
     },
     "35:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        32
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2486,14 +2535,8 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 1,
-              "Damage:2": 160,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "betterquesting:placeholder",
-              "Count:3": 1,
+              "id:8": "botania:manaresource",
+              "Count:3": 5,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -3108,6 +3151,70 @@
       "rewards:9": {}
     },
     "50:10": {
+      "questID:3": 51,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:spreader",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Timed Mana Movement",
+          "desc:8": "Pulse mana spreader will only fire when they recive a redstone pulse.\n\nThis might be useful in the future..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:spreader",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 3,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "51:10": {
       "questID:3": 52,
       "preRequisites:11": [
         50
@@ -3158,7 +3265,7 @@
       },
       "rewards:9": {}
     },
-    "51:10": {
+    "52:10": {
       "questID:3": 53,
       "preRequisites:11": [
         52
@@ -3209,7 +3316,7 @@
       },
       "rewards:9": {}
     },
-    "52:10": {
+    "53:10": {
       "questID:3": 54,
       "preRequisites:11": [
         50
@@ -3242,7 +3349,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "53:10": {
+    "54:10": {
       "questID:3": 55,
       "preRequisites:11": [
         50
@@ -3275,7 +3382,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "54:10": {
+    "55:10": {
       "questID:3": 56,
       "preRequisites:11": [
         50
@@ -3308,7 +3415,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "55:10": {
+    "56:10": {
       "questID:3": 57,
       "preRequisites:11": [
         50
@@ -3346,7 +3453,7 @@
       },
       "rewards:9": {}
     },
-    "56:10": {
+    "57:10": {
       "questID:3": 58,
       "preRequisites:11": [
         57,
@@ -3406,7 +3513,7 @@
       },
       "rewards:9": {}
     },
-    "57:10": {
+    "58:10": {
       "questID:3": 59,
       "preRequisites:11": [
         57,
@@ -3466,7 +3573,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "59:10": {
       "questID:3": 60,
       "preRequisites:11": [
         50
@@ -3499,7 +3606,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "59:10": {
+    "60:10": {
       "questID:3": 61,
       "preRequisites:11": [
         59,
@@ -3560,7 +3667,7 @@
       },
       "rewards:9": {}
     },
-    "60:10": {
+    "61:10": {
       "questID:3": 62,
       "preRequisites:11": [
         50,
@@ -3594,7 +3701,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "61:10": {
+    "62:10": {
       "questID:3": 63,
       "preRequisites:11": [
         50
@@ -3735,12 +3842,33 @@
         },
         "12:10": {
           "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -84,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 21,
           "sizeY:3": 24
         },
-        "13:10": {
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -12,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -84,
@@ -3840,31 +3968,24 @@
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 36,
-          "id:3": 29,
-          "sizeY:3": 24
-        },
-        "11:10": {
-          "sizeX:3": 24,
           "x:3": 96,
           "y:3": -72,
           "id:3": 30,
           "sizeY:3": 24
         },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 72,
-          "id:3": 31,
-          "sizeY:3": 24
-        },
-        "13:10": {
+        "11:10": {
           "sizeX:3": 36,
           "x:3": 138,
           "y:3": -42,
           "id:3": 32,
           "sizeY:3": 36
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 48,
+          "id:3": 51,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -3954,14 +4075,14 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 39,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": -48,
+          "y:3": 0,
           "id:3": 40,
           "sizeY:3": 24
         },
