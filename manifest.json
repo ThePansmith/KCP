@@ -19,6 +19,24 @@
             "projectID": 250363,
             "required": true
         },
+        {
+            "alias": "AppleSkin (AppleSkin-mc1.12-1.0.9.jar)",
+            "fileID": 2496585,
+            "projectID": 248787,
+            "required": true
+        },
+        {
+            "alias": "Tech Reborn (TechReborn-1.12.2-2.27.3.1084-universal.jar)",
+            "fileID": 2966851,
+            "projectID": 233564,
+            "required": true
+        },
+        {
+            "alias": "RebornCore (RebornCore-1.12.2-3.13.7.428-universal.jar)",
+            "fileID": 2688485,
+            "projectID": 2688485,
+            "required": true
+        },
 	{
             "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.19.jar)",
             "fileID": 2724129,
