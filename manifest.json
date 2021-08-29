@@ -474,6 +474,12 @@
 	    "fileID": 2549332,
 	    "projectID": 291727,
 	    "required": true
+	},
+	{
+	    "alias": "Project E (ProjectE-1.12.2-PE1.4.1.jar)",
+	    "fileID": 2702991,
+	    "projectID": 226410,
+	    "required": true
 	}
     ],
     "manifestType": "minecraftModpack",
