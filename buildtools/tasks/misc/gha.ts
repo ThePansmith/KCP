@@ -1,9 +1,8 @@
-import { modpackManifest } from "../../globals";
 import { makeArtifactNameBody } from "../../util/util";
 import sanitize from "sanitize-filename";
 
 export async function makeArtifactNames(): Promise<void> {
-	const body = makeArtifactNameBody(modpackManifest.name);
+	const body = makeArtifactNameBody("KSP_dev");
 	const names = {
 		client: body + "-client",
 		server: body + "-server",
