@@ -6,8 +6,6 @@
 	"launchscriptsMinRAM": "2048M",
 	"launchscriptsMaxRAM": "2048M",
 	"launchscriptsJVMArgs": "",
-	"esModuleInterop": true,
-	"allowSyntheticDefaultImports": true,
 	"copyOverridesServerGlobs": [
 		"config/**/*",
 		"mods/**/*",

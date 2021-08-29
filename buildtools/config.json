@@ -1,7 +1,5 @@
 
 {
-	"allowSyntheticDefaultImports": true,
-	"esModuleInterop": true,
 	"copyOverridesServerGlobs": [
 		"config/**/*",
 		"mods/**/*",
