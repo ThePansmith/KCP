@@ -1,5 +1,5 @@
 {
-	"name": "KCP-buildtools",
+	"name": "kcp-buildtools",
 	"version": "1",
 	"description": "KCP Server Builder.",
 	"main": "gulpfile.js",
