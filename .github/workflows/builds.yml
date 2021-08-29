@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      - name: Upload a Build Artifact
+      - name: Upload a Build Artifact (MultiMC)
         uses: actions/upload-artifact@v2.2.4
         with:
           # Artifact name
@@ -31,6 +31,6 @@ jobs:
           # A file, directory or wildcard pattern that describes what to upload
           path: |
             ./overrides
-            ./buildtools/multimc/modlist.html
-            ./buildtools/multimc/manifest.json
+            ./modlist.html
+            ./manifest.json
           # The desired behavior if no files are found using the provided path.
