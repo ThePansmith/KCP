@@ -21,11 +21,16 @@ jobs:
       - name: "Download NPM packages"
         working-directory: ./buildtools
         run: npm ci
+        
+      - name: "Make artifact names"
+        id: artifactNames
+        working-directory: ./buildtools
+        run: npx gulp makeArtifactNames
       
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: KCP-Dev-Build
+          name: ${{ steps.artifactNames.outputs.client }}
           path: |
             ./overrides
             ./modlist.html
