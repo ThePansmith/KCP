@@ -21,14 +21,5 @@ export interface ModpackManifestFile {
 }
 
 export interface ModpackManifest {
-	minecraft: Minecraft;
-	manifestType: string;
-	manifestVersion: number;
 	name: string;
-	version: string;
-	author: string;
-	projectID: number;
-	externalDependencies?: ExternalDependency[];
-	files: ModpackManifestFile[];
-	overrides: string;
 }
