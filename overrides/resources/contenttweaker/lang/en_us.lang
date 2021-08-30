@@ -1,5 +1,9 @@
 fluid.mana_sap=Mana Sap
 fluid.low_grade_methanol=Low-Grade Methanol
 fluid.molten_manasteel=Molten Manasteel
+fluid.dilute_mana=Diluted Mana
+
+
 item.contenttweaker.brick_dust.name=Brick Dust
 item.contenttweaker.low_grade_graphite.name=Low-Grade Graphite
+item.contenttweaker.alubrass_plate.name=Aluminum Brass
