@@ -8,3 +8,6 @@ brickdust.register();
 
 var alubrassplate = VanillaFactory.createItem("alubrass_plate");
 alubrassplate.register();
+
+var lowgradegraphite = VanillaFactory.createItem("low_grade_graphite");
+lowgradegraphite.register();
