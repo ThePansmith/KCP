@@ -1308,9 +1308,7 @@
     },
     "20:10": {
       "questID:3": 20,
-      "preRequisites:11": [
-        0
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1321,16 +1319,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "tconstruct:rack",
+            "id:8": "techreborn:ingot",
             "Count:3": 1,
-            "tag:10": {
-              "textureBlock:10": {
-                "id:8": "minecraft:wooden_slab",
-                "Count:1": 1,
-                "Damage:2": 0
-              }
-            },
-            "Damage:2": 1,
+            "Damage:2": 19,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1339,8 +1330,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Drying Rack",
-          "desc:8": "Drying racks are useful to transforming various items into others. \n\nIn this pack, monster jerky can be dried into leather, allowing you to convert rotten flesh into leather early on.\n\n"
+          "name:8": "Refined Iron",
+          "desc:8": "(Or iron + other stuff, anyway). This is the main metal you\u0027ll need to get you started in Tech Reborn and NuclearCraft."
         }
       },
       "tasks:9": {
@@ -1353,43 +1344,39 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "tconstruct:rack",
+              "id:8": "thermalfoundation:material",
+              "Count:3": 7,
+              "Damage:2": 162,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "betterquesting:placeholder",
               "Count:3": 1,
-              "tag:10": {
-                "textureBlock:10": {
-                  "id:8": "minecraft:wooden_slab",
-                  "Count:1": 1,
-                  "Damage:2": 0
-                }
-              },
-              "Damage:2": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:ingot",
+              "Count:3": 1,
+              "Damage:2": 19,
               "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "tconstruct:rack",
-              "Count:3": 2,
-              "tag:10": {
-                "textureBlock:10": {
-                  "id:8": "minecraft:wooden_slab",
-                  "Count:1": 1,
-                  "Damage:2": 0
-                }
-              },
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "21:10": {
       "questID:3": 21,
@@ -1555,7 +1542,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Belts!",
-          "desc:8": "Conveyor Belt are useful for moving items around.\n\nShift right-clicking will make the Conveyor Belt run up instead of horizontal.\n\nExtracting conveyor belts allow you to pull from inventories without the need of hoppers."
+          "desc:8": "Conveyor Belts are useful for moving items around.\n\nShift right-clicking will make the Conveyor Belt run up instead of horizontal.\n\nExtracting conveyor belts allow you to pull from inventories without the need of hoppers."
         }
       },
       "tasks:9": {
@@ -1938,7 +1925,7 @@
     "29:10": {
       "questID:3": 29,
       "preRequisites:11": [
-        9
+        16
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1950,9 +1937,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "tconstruct:channel",
+            "id:8": "botania:spreader",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -1961,8 +1948,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Casting Channels",
-          "desc:8": "Early on, you are going to be decently limited in your methods of item transportation. However, casting channels can be used to transfer fluids. This can be used for both general fluid transporation, but you can also route one faucet to many seared tables/basins at once. \n\nYou will need a large amount of aluminum brass for botantia, so this might be worth considering."
+          "name:8": "Timed Mana Movement",
+          "desc:8": "Pulse mana spreader will only fire when they recive a redstone pulse.\n\nThis might be useful in the future..."
         }
       },
       "tasks:9": {
@@ -1975,9 +1962,9 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "tconstruct:channel",
-              "Count:3": 10,
-              "Damage:2": 0,
+              "id:8": "botania:spreader",
+              "Count:3": 1,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           },
@@ -1990,9 +1977,9 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "tconstruct:casting",
-              "Count:3": 2,
-              "Damage:2": 0,
+              "id:8": "botania:manaresource",
+              "Count:3": 3,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -2191,9 +2178,7 @@
     },
     "33:10": {
       "questID:3": 34,
-      "preRequisites:11": [
-        32
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2300,9 +2285,7 @@
     },
     "35:10": {
       "questID:3": 36,
-      "preRequisites:11": [
-        32
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2535,8 +2518,14 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 5,
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 160,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "betterquesting:placeholder",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -2893,12 +2882,12 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "immersivepetroleum:schematic",
+            "id:8": "immersiveengineering:metal_multiblock",
             "Count:3": 1,
             "tag:10": {
               "multiblock:8": "IE:Crusher"
             },
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -3152,9 +3141,7 @@
     },
     "50:10": {
       "questID:3": 51,
-      "preRequisites:11": [
-        16
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3165,9 +3152,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "botania:spreader",
+            "id:8": "techreborn:treetap",
             "Count:3": 1,
-            "Damage:2": 1,
+            "Damage:2": 0,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -3176,8 +3163,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Timed Mana Movement",
-          "desc:8": "Pulse mana spreader will only fire when they recive a redstone pulse.\n\nThis might be useful in the future..."
+          "name:8": "Now You\u0027re Really Getting Sappy!",
+          "desc:8": "Sap will be used for getting rubber for TR cables. Grab a bunch."
         }
       },
       "tasks:9": {
@@ -3190,29 +3177,16 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "botania:spreader",
-              "Count:3": 1,
-              "Damage:2": 1,
+              "id:8": "techreborn:part",
+              "Count:3": 16,
+              "Damage:2": 31,
               "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
         }
       },
-      "rewards:9": {
-        "0:10": {
-          "rewardID:8": "bq_standard:item",
-          "index:3": 0,
-          "rewards:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 3,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
+      "rewards:9": {}
     },
     "51:10": {
       "questID:3": 52,
@@ -3751,6 +3725,367 @@
         }
       },
       "rewards:9": {}
+    },
+    "63:10": {
+      "questID:3": 64,
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "techreborn:part",
+            "Count:3": 1,
+            "Damage:2": 32,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Poorer Rubber",
+          "desc:8": "For now, the only way to get rubber is to smelt it. There are better ways to get it later on, however."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:part",
+              "Count:3": 16,
+              "Damage:2": 32,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "64:10": {
+      "questID:3": 65,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:wooden_hopper",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wooden Hoppers",
+          "desc:8": "Wooden Hoppers are a cheaper version of the standard hopper, at the cost of moving items somewhat slower. The recipe is unchanged to encourge earlygame usage.\n\nThey are good for earlygame item movement, especially when combined with conveyor belts."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:wooden_hopper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:wooden_hopper",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "65:10": {
+      "questID:3": 66,
+      "preRequisites:11": [
+        64
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "techreborn:cable",
+            "Count:3": 1,
+            "Damage:2": 5,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Copper Cables (again)",
+          "desc:8": "The copper cables here can be made in the IE press multi, yielding one per ingot. Later on, you can up this rate however.\n\nFor now, you can craft these manually, but you\u0027ll probably want to make them differently later on..."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:mold",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 128,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:cable",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "techreborn:part",
+              "Count:3": 2,
+              "Damage:2": 32,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "techreborn:cable",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "66:10": {
+      "questID:3": 67,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:rack",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "minecraft:wooden_slab",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Drying Rack",
+          "desc:8": "Drying racks are useful to transforming various items into others.\n\nIn this pack, monster jerky can be dried into leather, allowing you to convert rotten flesh into leather early on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:rack",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:wooden_slab",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:rack",
+              "Count:3": 2,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:wooden_slab",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "67:10": {
+      "questID:3": 68,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:channel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Casting Channels",
+          "desc:8": "Early on, you are going to be decently limited in your methods of item transportation. However, casting channels can be used to transfer fluids. This can be used for both general fluid transporation, but you can also route one faucet to many seared tables/basins at once.\n\nYou will need a large amount of aluminum brass for botantia, so this might be worth considering."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:channel",
+              "Count:3": 10,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "tconstruct:channel",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -3842,37 +4177,37 @@
         },
         "12:10": {
           "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -84,
-          "id:3": 15,
-          "sizeY:3": 24
-        },
-        "13:10": {
-          "sizeX:3": 24,
-          "x:3": -144,
-          "y:3": -12,
-          "id:3": 20,
-          "sizeY:3": 24
-        },
-        "14:10": {
-          "sizeX:3": 24,
           "x:3": 12,
           "y:3": -48,
           "id:3": 21,
           "sizeY:3": 24
         },
-        "15:10": {
-          "sizeX:3": 24,
-          "x:3": 120,
-          "y:3": -12,
-          "id:3": 29,
-          "sizeY:3": 24
-        },
-        "16:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -84,
           "id:3": 33,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -84,
+          "id:3": 65,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": -12,
+          "id:3": 67,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -12,
+          "id:3": 68,
           "sizeY:3": 24
         }
       },
@@ -3968,24 +4303,24 @@
         },
         "10:10": {
           "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 48,
+          "id:3": 29,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
           "x:3": 96,
           "y:3": -72,
           "id:3": 30,
           "sizeY:3": 24
         },
-        "11:10": {
+        "12:10": {
           "sizeX:3": 36,
           "x:3": 138,
           "y:3": -42,
           "id:3": 32,
           "sizeY:3": 36
-        },
-        "12:10": {
-          "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": 48,
-          "id:3": 51,
-          "sizeY:3": 24
         }
       },
       "lineID:3": 1,
@@ -4075,14 +4410,14 @@
         "9:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": -48,
+          "y:3": 0,
           "id:3": 39,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
           "x:3": 24,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 40,
           "sizeY:3": 24
         },
@@ -4281,7 +4616,36 @@
       "order:3": 3
     },
     "4:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -60,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -144,
+          "y:3": 12,
+          "id:3": 51,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 12,
+          "id:3": 64,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": 12,
+          "id:3": 66,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
