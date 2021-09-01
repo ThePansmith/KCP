@@ -22,3 +22,4 @@ Squeezer.addRecipe(<liquid:dilute_mana> * 144, [<botania:manaresource:1>], 30);
 Squeezer.addRecipe(<liquid:dilute_mana> * 144, [<botania:manaresource:2>], 30);
 Squeezer.addRecipe(<liquid:dilute_mana> * 72, [<botania:manaresource:23>], 30);
 Squeezer.addRecipe(<liquid:dilute_mana> * 36, [<botania:manaresource:16>], 30);
+Squeezer.addRecipe(<liquid:redstone> * 50, [<minecraft:redstone>], 30);

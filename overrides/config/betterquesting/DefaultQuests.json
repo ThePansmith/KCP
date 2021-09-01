@@ -1350,7 +1350,7 @@
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "betterquesting:placeholder",
+              "id:8": "contenttweaker:low_grade_graphite",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3164,7 +3164,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Now You\u0027re Really Getting Sappy!",
-          "desc:8": "Sap will be used for getting rubber for TR cables. Grab a bunch."
+          "desc:8": "Sap will be used for getting rubber for TR cables. Grab a bunch with a treetap."
         }
       },
       "tasks:9": {
