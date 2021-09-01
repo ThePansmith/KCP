@@ -28,7 +28,7 @@ mana_sap.register();
 
 // Low grade methanol
 // Early Game version of methanol, created from pressing creosote. Used in earlygame machine recipes.
-var low_grade_methanol = VanillaFactory.createFluid("Low_grade_methanol", Color.fromHex("fafafa")); 
+var low_grade_methanol = VanillaFactory.createFluid("low_grade_methanol", Color.fromHex("fafafa")); 
 low_grade_methanol.register();
 
 // Molten Manasteel
