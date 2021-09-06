@@ -9,6 +9,7 @@ recipes.remove(<techreborn:cable:5>);
 recipes.remove(<techreborn:treetap>);
 recipes.remove(<techreborn:cable:*>);
 recipes.remove(<techreborn:part:29>);
+recipes.remove(<techreborn:machine_frame:0>);
 
 //Addition
 //TODO: Add Glass Cable Recipe
@@ -21,6 +22,9 @@ Carpenter.addRecipe(<techreborn:treetap>, [[null, <ore:stickTreatedWood>, null],
 //Insulated Cables, TODO: Use "better" rubber for maybe gold+
 recipes.addShapeless(<techreborn:cable:5>, [<techreborn:cable:0>, <techreborn:part:32>, <techreborn:part:32>]); //Copper
 recipes.addShapeless(<techreborn:cable:6>, [<techreborn:cable:1>, <techreborn:part:32>, <techreborn:part:32>]); //Gold
+
+//Machine Frames
+recipes.addShaped(<techreborn:machine_frame:0>, [[<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>], [<techreborn:cable:5>, <techreborn:part:29>, <techreborn:cable:5>], [<ore:plateRefinedIron>, <ore:plateRefinedIron>, <ore:plateRefinedIron>]]);
 
 //Circuits
 Carpenter.addRecipe(<techreborn:part:29>, [[<techreborn:cable:5>, <ore:plateRefinedIron>, <ore:plateRefinedIron>], [<techreborn:cable:5>, <immersiveengineering:material:27>, <techreborn:cable:5>]], 120, <liquid:redstone> * 400);

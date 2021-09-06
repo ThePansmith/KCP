@@ -4,6 +4,7 @@ import mods.forestry.Fermenter;
 import mods.forestry.Squeezer;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Blueprint;
+import mods.techreborn.compressor;
 
 // Removal
 var removedRecipes = [
@@ -11,7 +12,8 @@ var removedRecipes = [
     <immersiveengineering:metal_decoration0:4>,
     <immersiveengineering:metal_decoration0:5>,
     <immersiveengineering:stone_decoration>,
-    <immersiveengineering:stone_decoration:10>
+    <immersiveengineering:stone_decoration:10>,
+    <immersiveengineering:sheetmetal:*>
 ] as IItemStack[];
 
 for recipe in removedRecipes {
@@ -37,3 +39,6 @@ Carpenter.addRecipe(<immersiveengineering:metal_decoration0:4>* 1, [[<ore:ingotI
 Carpenter.addRecipe(<immersiveengineering:metal_device1:6>* 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]], 30, <liquid:low_grade_methanol> * 50);
 Carpenter.addRecipe(<immersiveengineering:stone_decoration:10>* 2, [[<minecraft:sand>, <contenttweaker:brick_dust>, null],[<contenttweaker:brick_dust>, <minecraft:sand>, null], [null, null, null]], 30, <liquid:low_grade_methanol> * 50);
 Carpenter.addRecipe(<immersiveengineering:material:27>, [[<forestry:thermionic_tubes:4>, <forestry:thermionic_tubes:0>, <forestry:thermionic_tubes:4>], [<ore:plankTreatedWood>, <ore:plateCopper>, <ore:plankTreatedWood>], [null, null, null]], 90, <liquid:low_grade_methanol> * 100);
+
+//TR Compressor
+compressor.addRecipe(<immersiveengineering:sheetmetal:9>, <thermalfoundation:material:32> * 4, 200, 32);
