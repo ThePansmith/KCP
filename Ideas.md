@@ -21,14 +21,14 @@
 *
 
 Possible ages to work towards:
-Magicky early Age
+* Magicky early Age
 
-Engineering Age
-Technology Age
-(these two maybe combined a little bit)
+* Engineering Age
+* Technology Age
+* (these two maybe combined a little bit)
 
-Atomic Age
-ProjectE Age
+* Atomic Age
+* ProjectE Age
 
 # Ideas implemented
 * Start with gear ala omni
