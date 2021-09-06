@@ -19,6 +19,17 @@
  * Long processing chain rather than craft?
 * Quests could be done like ftb interactions, but better.
 *
+
+Possible ages to work towards:
+Magicky early Age
+
+Engineering Age
+Technology Age
+(these two maybe combined a little bit)
+
+Atomic Age
+ProjectE Age
+
 # Ideas implemented
 * Start with gear ala omni
 * Botantia as a viable/only? early to midgame power source
