@@ -28,7 +28,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "You Know The Drill",
-          "desc:8": "Punch tree, get wood, blah blah blah"
+          "desc:8": "Punch tree, get wood. You know the drill."
         }
       },
       "tasks:9": {
@@ -55,10 +55,10 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Run a command script",
+          "description:8": "",
           "viaPlayer:1": 0,
           "index:3": 0,
-          "title:8": "bq_standard.reward.command",
+          "title:8": "",
           "command:8": "say Player has won Minecraft! (almost)"
         }
       }
@@ -414,7 +414,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Getting Started",
-          "desc:8": "Welcome to the Kharax Community Pack!\n\n§1(Insert some form of \"mission statement\" here)\n\n§0Here is some food and armour to get you started!"
+          "desc:8": "Welcome to the Kharax Community Pack!\n\n§1(Insert some form of \"mission statement\" here)\n\n§fHere is some food and armour to get you started!§f"
         }
       },
       "tasks:9": {
@@ -2065,7 +2065,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "Power!",
-          "desc:8": "With you new plates, and other resources, you can now craft a mana fluxfield!\n\nMana fluxfields allow you to turn Botania mana into redstone flux, allowing you to start crafting (and using) some machines!\n\nDon\u0027t worry however, Botania isnt going to become irreverent just because machines are now in play."
+          "desc:8": "With you new plates, and other resources, you can now craft a mana fluxfield!\n\nMana fluxfields allow you to turn Botania mana into redstone flux, allowing you to start crafting (and using) some machines!\n\nDon\u0027t worry however, Botania isnt going to become irrelevant just because machines are now in play."
         }
       },
       "tasks:9": {
@@ -2178,7 +2178,9 @@
     },
     "33:10": {
       "questID:3": 34,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        32
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -2285,7 +2287,9 @@
     },
     "35:10": {
       "questID:3": 36,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        32
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3357,39 +3361,6 @@
       "rewards:9": {}
     },
     "55:10": {
-      "questID:3": 56,
-      "preRequisites:11": [
-        50
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "issilent:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "lockedprogress:1": 0,
-          "tasklogic:8": "AND",
-          "repeattime:3": -1,
-          "visibility:8": "NORMAL",
-          "simultaneous:1": 0,
-          "icon:10": {
-            "id:8": "minecraft:nether_star",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "globalshare:1": 0,
-          "questlogic:8": "AND",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "autoclaim:1": 0,
-          "repeat_relative:1": 1,
-          "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
-        }
-      },
-      "tasks:9": {},
-      "rewards:9": {}
-    },
-    "56:10": {
       "questID:3": 57,
       "preRequisites:11": [
         50
@@ -3427,7 +3398,7 @@
       },
       "rewards:9": {}
     },
-    "57:10": {
+    "56:10": {
       "questID:3": 58,
       "preRequisites:11": [
         57,
@@ -3487,7 +3458,7 @@
       },
       "rewards:9": {}
     },
-    "58:10": {
+    "57:10": {
       "questID:3": 59,
       "preRequisites:11": [
         57,
@@ -3547,7 +3518,7 @@
       },
       "rewards:9": {}
     },
-    "59:10": {
+    "58:10": {
       "questID:3": 60,
       "preRequisites:11": [
         50
@@ -3580,7 +3551,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "60:10": {
+    "59:10": {
       "questID:3": 61,
       "preRequisites:11": [
         59,
@@ -3641,7 +3612,7 @@
       },
       "rewards:9": {}
     },
-    "61:10": {
+    "60:10": {
       "questID:3": 62,
       "preRequisites:11": [
         50,
@@ -3675,7 +3646,7 @@
       "tasks:9": {},
       "rewards:9": {}
     },
-    "62:10": {
+    "61:10": {
       "questID:3": 63,
       "preRequisites:11": [
         50
@@ -3726,7 +3697,7 @@
       },
       "rewards:9": {}
     },
-    "63:10": {
+    "62:10": {
       "questID:3": 64,
       "preRequisites:11": [
         51
@@ -3777,7 +3748,7 @@
       },
       "rewards:9": {}
     },
-    "64:10": {
+    "63:10": {
       "questID:3": 65,
       "preRequisites:11": [
         0
@@ -3841,7 +3812,7 @@
         }
       }
     },
-    "65:10": {
+    "64:10": {
       "questID:3": 66,
       "preRequisites:11": [
         64
@@ -3938,7 +3909,7 @@
       },
       "rewards:9": {}
     },
-    "66:10": {
+    "65:10": {
       "questID:3": 67,
       "preRequisites:11": [
         0
@@ -4023,7 +3994,7 @@
         }
       }
     },
-    "67:10": {
+    "66:10": {
       "questID:3": 68,
       "preRequisites:11": [
         9
@@ -4542,54 +4513,47 @@
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -48,
-          "id:3": 56,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
           "x:3": -168,
           "y:3": -84,
           "id:3": 57,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": -192,
           "y:3": -120,
           "id:3": 58,
           "sizeY:3": 24
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -144,
           "y:3": -120,
           "id:3": 59,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -156,
           "id:3": 60,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": -168,
           "y:3": -156,
           "id:3": 61,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -192,
           "id:3": 62,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": -108,
           "y:3": -12,
