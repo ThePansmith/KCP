@@ -160,13 +160,14 @@
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow": {
+                "images": ["mainmenu:img1.png", "mainmenu:img2.png", "mainmenu:img3.png", "mainmenu:img4.png", "mainmenu:img5.png", "mainmenu:img6.png"],
+                "displayDuration": 100,
+                "fadeDuration": 40
+            }
         }
     }
 }
